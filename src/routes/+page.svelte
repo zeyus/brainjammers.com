@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import { Canvas } from '@threlte/core'
+  import Scene from '../components/Scene.svelte'
+</script>
+<div>
+    <Canvas>
+    <Scene />
+    </Canvas>
+</div>
+
+<style>
+    div {
+      height: 100vh;
+    }
+  </style>
