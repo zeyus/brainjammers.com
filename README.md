@@ -1,2 +1,2 @@
 # brainjammers.com
-The latest in disruptive tech
+The latest in disruptive neurodisruptor tech
