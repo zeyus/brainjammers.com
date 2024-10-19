@@ -8,8 +8,8 @@ const config = {
 		appDir: 'app',
 		adapter: adapter({
 			fallback: "404.html",
-			pages: "docs",
-			assets: "docs",
+			pages: "build",
+			assets: "build",
 			strict: true
 		}),
 		paths: {
